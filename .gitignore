@@ -1,0 +1,30 @@
+# Go build artifacts
+*.exe
+*.test
+*.out
+bootstrap
+function.zip
+layer.zip
+
+# Go module files
+/go.sum
+/vendor/
+
+# Terraform files
+.terraform/
+.terraform.lock.hcl
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Build script temp
+lambda/bootstrap
+terraform/function.zip
