@@ -72,4 +72,5 @@ Logged to custom CloudWatch group
 This setup:
 
 ✅ Allows logging only to /custom/lambda/logs
+
 ❌ Prevents access to /aws/lambda/<function-name>
