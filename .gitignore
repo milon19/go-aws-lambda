@@ -13,6 +13,10 @@ layer.zip
 # Terraform files
 .terraform/
 .terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.tfstate.lock.info
+
 
 # OS generated files
 .DS_Store
