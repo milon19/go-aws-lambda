@@ -1,4 +1,3 @@
-# Set project directories
 LAMBDA_DIR=lambda
 TERRAFORM_DIR=terraform
 ZIP_NAME=function.zip
@@ -24,6 +23,9 @@ tf-init:
 
 tf-destroy:
 	cd $(TERRAFORM_DIR) && terraform destroy -auto-approve
+
+tf-plan:
+	cd $(TERRAFORM_DIR) && terraform plan
 
 clean:
 	rm -f $(LAMBDA_DIR)/bootstrap
